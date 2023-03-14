@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+.grid4x4 {
+
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows:  repeat( 4, 1fr); */
+  background: rgba(32, 32, 32, 0.84);
+  border-radius: 11px;
+row-gap:10px;
+column-gap:10px;
+  top:13%;
+  right:5%
+}
+
+.botonsonido {
+
+  box-sizing: border-box;
+
+
+  width: 90px;
+  height: 90px;
+
+
+  background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+  border: 3px solid #D94A4A;
+  box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+  border-radius: 5px;
+
+
+}
+
+.contenedor {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.panel {
+
+  box-sizing: border-box;
+
+  width: 100%;
+  display: flex;
+
+
+}
+
+.panel img {
+
+  width: 100%;
+
+}
+
+.foto {
+  box-sizing: border-box;
+
+}
+
+.derecha {
+
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: right;
+  border-style: solid;
+  filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
+
+}
+
+/*tatiana*/
+
+
+
+
+body {
+
+  background-color: #131839; 
+  font-family: 'Inter', sans-serif;;
+
+}
+
+.text1 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 737px;
+  height: 209px;
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 70px;
+  color: #FFFFFF;
+}
+
+.colortext {
+
+  color: #6C56C2;
+}
+
+
+.text-paragrafo {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 517px;
+  height: 64px;
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #A9A5A6;
+}
+
+.btn {
+  padding: 0.5em;
+  border: none;
+  background-color: #6C56C2;
+  border-radius: 16px;
+
+  width: 246px;
+  height: 86px;
+
+
+}
+
+
+.btn_body {
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+padding: 0.5em 2em;
+}
+
+/*manu de nuevo*/
+
+.botonplay {
+
+  padding: 0.5em;
+  border: none;
+  background-color: #6C56C2;
+  border-radius: 16px;
+
+  width: 246px;
+  height: 86px;
+  background-color: #131839;
+  color: white;
+
+}
