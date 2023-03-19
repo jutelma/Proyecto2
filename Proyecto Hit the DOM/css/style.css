@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #131839;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/*@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column-reverse;
+    }
+  } */
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+.header-main {
+    padding-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar li {
+    cursor: pointer;
+
+}
+
+
+.btn {
+    padding: 0.5em;
+    border: none;
+
+    color: aliceblue;
+    background: #6C56C2;
+    border-radius: 8px;
+}
+
+.btn_header1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+    padding: 0.5em 2em;
+}
+
+.btn_header2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.5em 2em;
+
+    width: 176px;
+    height: 86px;
+
+}
+
+.btn_header1:hover {
+    background-color: #131839;
+    color: white;
+}
+
+
+.btn_header2:hover {
+    background-color: #131839;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+.hero-main {
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.hero-text {
+    display: flex;
+    /*display: block;*/
+    flex-direction: column;
+   /* justify-content: center;*/
+    font-size: 1.875em;
+
+}
+
+.colortext1 {
+    color: #6C56C2;
+}
+
+.text-paragraf1 {
+    color: #A9A5A6;
+    font-size: 0.575em;
+    padding-top: 20px;
+    
+    
+}
+
+.text-set_buttons {
+    padding-top: 180px;
+    
+}
+
+
+
+
+
+
+
+.hero-pad {
+    height: max-content;
+    position: relative;
+    filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
+}
+
+.pad-set_buttons {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+
+    width: 66%; 
+    height: 79%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3%;
+
+    /*display: none;*/
+}
+
+
+.btn_pad {
+
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+}
+
+
+
+  
+
