@@ -4,6 +4,7 @@
   margin:0; 
   padding: 0; 
   border:0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -83,9 +84,9 @@ i.fa-sharp.fa-solid.fa-bars {
   font-size: 33px;
 }
 
-@media (max-width: 1030px) and (min-width: 768px) {
+@media (max-width: 1070px) and (min-width: 768px) {
   .menu-options {
-    grid-gap: 52px;
+    grid-gap: 44px;
   }
  
 }
