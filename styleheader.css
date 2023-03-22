@@ -84,7 +84,7 @@ i.fa-sharp.fa-solid.fa-bars {
   font-size: 33px;
 }
 
-@media (max-width: 1070px) and (min-width: 768px) {
+@media (max-width: 1070px) {
   .menu-options {
     grid-gap: 44px;
   }
@@ -93,6 +93,7 @@ i.fa-sharp.fa-solid.fa-bars {
 
 @media (max-width: 768px) {
   .menu-options {
+    display: none;
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
