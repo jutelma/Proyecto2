@@ -11,7 +11,6 @@
    border: 1px solid #E6E6E6;
    border-radius: 5px;
    padding: 20px;
-   width: 653px;
    border-radius: 5px;
 
 
@@ -60,6 +59,35 @@
    color: #cfc1cc;
    font-weight: 400;
 }
-@media (max-width: 1070px) and (min-width: 768px) {
+
+/*@media (min-width: 769px) {
+
+
+body{
+   background-color: #60066c;
+
+}
+
+}*/
+@media  (max-width:768px){
+
+   .body{
+      background-color: aquamarine;
+   }
+   .footer{
+      grid-template-columns: 1fr;
+   }
+
+.input-form{
+   width: 70%;
+}
+
+}
+   
+
+
+  
+
+
 
    
