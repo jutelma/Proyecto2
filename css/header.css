@@ -9,7 +9,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 8% auto 10%;
+  grid-template-columns: 20% auto 15%;
   max-width: 100%;
   margin: 45px 0;
   padding: 20px;
@@ -25,9 +25,8 @@ img.logo {
 
 .menu-options {
   display: flex;
-  gap: 75px;
+  gap: 70px;
   list-style: none;
-  padding-left: 85px;
   align-items: center;
 }
 
@@ -117,7 +116,6 @@ i.fa-sharp.fa-solid.fa-bars {
   img.logo {
     height: 69px;
     margin-top: -9px;
-    max-width: none;
   }
 
 }
