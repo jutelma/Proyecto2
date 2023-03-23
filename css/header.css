@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 8% auto 10%;
   max-width: 100%;
-  margin: 45px auto;
+  margin: 45px 0;
   padding: 20px;
 }
 
@@ -25,7 +25,7 @@ img.logo {
 
 .menu-options {
   display: flex;
-  gap: 110px;
+  gap: 75px;
   list-style: none;
   padding-left: 85px;
   align-items: center;
@@ -81,20 +81,9 @@ li.menu-item a:hover {
   margin-top: -15px;
 }
 
-/*i.fa-sharp.fa-solid.fa-bars {
-  font-size: 33px;
-}*/
-
 i.fa-sharp.fa-solid.fa-bars {
     font-size: 33px;
   }
-
-/*@media (max-width: 1070px) {
-  .menu-options {
-    grid-gap: 44px;
-  }
- 
-}*/
 
 @media (max-width: 768px) {
   .menu-options {
@@ -113,6 +102,8 @@ i.fa-sharp.fa-solid.fa-bars {
   }
   .header {
     height: 140px;
+    width: 80%;
+    margin: 45px auto;
   }
   .toggle {
     display: block;
