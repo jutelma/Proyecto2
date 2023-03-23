@@ -64,7 +64,7 @@ body {
     border-radius: 8px;
 }
 
-.btn_header1 {
+/*.btn_header1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -72,11 +72,11 @@ body {
     line-height: 22px;
 
     /* identical to box height */
-    text-align: center;
+    /*text-align: center;
 
     color: #FFFFFF;
     padding: 0.5em 2em;
-}
+}*/
 
 .btn_header2 {
     font-family: 'Inter';

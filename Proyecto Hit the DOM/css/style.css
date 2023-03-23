@@ -151,7 +151,7 @@ body {
     /*width: 604px;
     height: 507px;*/
     /*width: fit-content;*/
-    height: max-content;
+    height: min-content;
     
     /*display: grid;*/
    /* grid-template-rows: fit-content(700px);*/
