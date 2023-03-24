@@ -69,14 +69,20 @@
  
     .body{
        background-color: aquamarine;
+       
     }
     .footer{
        grid-template-columns: 1fr;
+       padding-left: 15%;
     }
  
- .input-form{
-    width: 70%;
- }
+    .input-form{
+       width: 70%;
+   }
+
+    .h2 {
+      padding-bottom: 10%;
+    }
  
  }
     
