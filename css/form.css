@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 1fr;
     
     
+    
  
  }
  
@@ -23,8 +24,6 @@
     flex-direction: column;
     gap: 10px;
     
- 
- 
  }
  
  .button {
@@ -50,15 +49,15 @@
  .h1 {
     font-family: Inter;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
     line-height: 48px;
  
  }
  
  .h2{
-    font-size: 29px;
-    color: #cfc1cc;
+    font-size: 19px;
+    color: #6C56C2;
     font-weight: 400;
  }
  
