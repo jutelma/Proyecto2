@@ -28,7 +28,7 @@ body {
 
 }
 
-.header-main {
+/*.header-main {
     padding-top: 1em;
     width: 100%;
     display: flex;
@@ -52,7 +52,7 @@ body {
 .navbar li {
     cursor: pointer;
 
-}
+}*/
 
 
 .btn {
